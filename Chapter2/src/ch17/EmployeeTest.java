@@ -17,6 +17,6 @@ public class EmployeeTest {
         System.out.println(employee2.getName() + "님의 사번 : " + employee2.getId());
 
         System.out.println(Employee.getSerialNum());
-       
+
     }
 }

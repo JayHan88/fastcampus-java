@@ -1,5 +1,7 @@
 package ch04;
 
+import java.time.LocalDateTime;
+
 public class StudentTest {
 
     public static void main(String[] args) {
@@ -18,6 +20,10 @@ public class StudentTest {
         student2.address = "서울 성동구";
 
         student2.showStudentInfo();
+
+        System.out.println(LocalDateTime.now().minusMonths(3));
+
+        System.out.println(LocalDateTime.now().minusDays(90));
 
     }
 }

@@ -10,12 +10,22 @@ public class SwitchCaseTest {
         int month = scanner.nextInt();
         int day;
 
-        switch(month) {
+        switch (month) {
 
-            case 1: case 3: case 5: case 7: case 9: case 11:
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 9:
+            case 11:
                 day = 31;
                 break;
-            case 2: case 4: case 6: case 8: case 10: case 12:
+            case 2:
+            case 4:
+            case 6:
+            case 8:
+            case 10:
+            case 12:
                 day = 30;
                 break;
             default:

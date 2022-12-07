@@ -24,7 +24,7 @@ public class SwitchCaseUpTest {
             }
             default -> {
                 System.out.println("존재하지 앖는 달입니다.");
-                yield -1;
+                yield - 1;
             }
         };
 

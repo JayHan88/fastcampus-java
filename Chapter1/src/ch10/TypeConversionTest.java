@@ -17,7 +17,7 @@ public class TypeConversionTest {
         double dNum2 = 1.2;
         float fNum = 0.9F;
 
-        int iNum3 = (int) dNum2 +  (int) fNum;
+        int iNum3 = (int) dNum2 + (int) fNum;
         int iNum4 = (int) (dNum2 + fNum);
 
         System.out.println(iNum3);

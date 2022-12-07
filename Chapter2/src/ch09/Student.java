@@ -8,7 +8,7 @@ public class Student {
     Subject korean;
     Subject math;
 
-    Student (int studentId, String studentName) {
+    Student(int studentId, String studentName) {
         this.studentId = studentId;
         this.studentName = studentName;
 
@@ -28,7 +28,7 @@ public class Student {
 
     public void showScore() {
         int total = korean.score + math.score;
-        System.out.println(studentName + " 학생의 합산 성적은 " + total +"입니다");
+        System.out.println(studentName + " 학생의 합산 성적은 " + total + "입니다");
     }
 
 }

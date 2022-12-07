@@ -10,7 +10,7 @@ public class IfElseIfElseTest {
         int age = scanner.nextInt();
         int charge;
 
-        if (age < 8 ) {
+        if (age < 8) {
             System.out.println("미취학 아동입니다.");
             charge = 1000;
         } else if (age < 14) {

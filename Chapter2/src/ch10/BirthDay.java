@@ -10,7 +10,7 @@ public class BirthDay {
     public void showBirthDay() {
 
         if (isValid) {
-            System.out.println( year + "년 " + month + "월 " + day + "일");
+            System.out.println(year + "년 " + month + "월 " + day + "일");
         } else {
             System.out.println("유효하지 않은 날짜입니다.");
         }
